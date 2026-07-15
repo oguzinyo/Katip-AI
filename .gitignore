@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.ruff_cache/
+.pytest_cache/
+
+# Ortam
+.env
+venv/
+.venv/
+
+# Kimlik dosyaları (hassas — ASLA commit etmeyin)
+token.json
+credentials.json
+
+# Uygulama verileri (kişisel içerik barındırır)
+chat_history.json
+chat_sessions.json
+downloads/
+input.wav
+
+# IDE / araçlar
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
